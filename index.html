@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de CEP</title>
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="icon" href="img/faveicon.png">
+
+    <script src="https://kit.fontawesome.com/26297e30b2.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="header-form">
+            <div class="title">
+                <h1><i class="fa-solid fa-location-dot"></i>buscador de cep</h1>
+                
+                <p> - Se sabe o código postal e quer encontrar os locais a ele associados, insira primeiro os 4 dígitos do código postal na primeira caixa e, de seguida, os 3 dígitos na segunda caixa.</p>
+            </div>
+            <div class="body-form">
+                <input id="input1" type="text" placeholder="Ex: 12345" maxlength="5">
+                -
+                <input id="input2" type="text" placeholder="678" maxlength="3">
+            </div>
+            <div class="footer-form">
+                <button onclick="verificarCep()">Buscar</button>
+            </div>
+            <p id="text"></p>
+        </div>
+        <div class="botoes-redes">
+            <a href="https://github.com/thiagocabralms" target="_blank"><button>Github</button></a>
+            <a href="https://www.linkedin.com/in/thiago-guimar%C3%A3es-8818302ab/" target="_blank"><button>Linkedin</button></a>
+            
+        </div>
+    </header>
+
+    <script src="JS/header.js"></script>
+</body>
+
+</html>
